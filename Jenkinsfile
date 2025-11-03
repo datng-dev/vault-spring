@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/yourname/your-repo.git'
+                git 'https://github.com/datng-dev/vault-spring.git'
             }
         }
 
