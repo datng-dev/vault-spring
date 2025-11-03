@@ -6,12 +6,6 @@ pipeline {
     }
 
     stages {
-        stage('Checkout') {
-            steps {
-                git 'https://github.com/datng-dev/vault-spring.git'
-            }
-        }
-
         stage('Build') {
             steps {
                 echo "Building ${APP_NAME}..."
